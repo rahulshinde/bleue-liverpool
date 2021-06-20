@@ -1,0 +1,12 @@
+html{
+	background: #000;
+}
+body{
+	margin: 0;
+}
+
+#three_js_container{
+	position: relative;
+	width: 100%;
+	height: 80vh;
+}
