@@ -1,8 +1,24 @@
+@font-face {
+  font-family: 'Osmose';
+  src: url("../fonts/OsmoseRahul-Regular.woff2") format("woff2"),
+       url("../fonts/OsmoseRahul-Regular.woff") format("woff"),
+       url("../fonts/OsmoseRahul-Regular.eot") format("eot");
+  font-weight: 400;
+}
+
 html{
 	background: #000;
 }
 body{
 	margin: 0;
+	font-family: 'Osmose', Arial, sans-serif;
+}
+
+h1,
+a{
+	font-size:  1rem;
+	font-weight: 400;
+	margin-bottom: 2rem;
 }
 
 header{
@@ -13,8 +29,10 @@ header{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	z-index: 100;
 	color:  #fff;
+	text-transform: uppercase;
 }
 
 nav{
@@ -25,6 +43,7 @@ nav{
 }
 
 a{
+	text-decoration: none;
 	color:  #fff;
 }
 
