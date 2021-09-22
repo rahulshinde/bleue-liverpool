@@ -1,5 +1,5 @@
 var window_width = window.innerWidth;
-var window_height = window.innerHeight * 0.8;
+var window_height = window.innerHeight;
 
 window.addEventListener( 'resize', onWindowResize, false );
 
@@ -45,8 +45,9 @@ cubeGroup.add(cube2);
 
 scene.add( cubeGroup );
 
-camera.position.z = 2.5;
-camera.position.y = 1;
+camera.position.z = 3.5;
+camera.position.y = 1.5;
+camera.position.x = -2;
 camera.rotation.x = -0.4;
 
 
