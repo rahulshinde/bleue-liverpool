@@ -57,6 +57,13 @@ a{
 	mix-blend-mode: exclusion;
 }
 
+.chapter2_video{
+	width: 80%;
+	height: 80%;
+	top:  10%;
+	left:  10%;
+}
+
 #three_js_container{
 	position: absolute;
 	right:  0;
