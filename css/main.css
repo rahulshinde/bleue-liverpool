@@ -12,34 +12,28 @@ html{
 body{
 	margin: 0;
 	font-family: 'Osmose', Arial, sans-serif;
+	letter-spacing: 0.3em;
 }
 
 h1,
 a{
-	font-size:  1rem;
+	font-size:  0.75rem;
 	font-weight: 400;
-	margin-bottom: 2rem;
+	margin-top:  0;
+	margin-bottom:  0;
+	margin-right: 2rem;
 }
 
 header{
 	position: fixed;
-	top: 0;
-	height: 100%;
+	top: 1rem;
 	right:  1rem;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	align-items: baseline;
 	z-index: 100;
 	color:  #fff;
 	text-transform: uppercase;
-}
-
-nav{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	mix-blend-mode: exclusion;
 }
 
 a{
