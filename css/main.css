@@ -57,6 +57,10 @@ a{
 	mix-blend-mode: exclusion;
 }
 
+.chapter_full_video.godess{
+	z-index: -1;
+}
+
 .chapter2_video{
 	width: 80%;
 	height: 80%;

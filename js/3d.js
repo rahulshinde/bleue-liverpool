@@ -6,7 +6,7 @@ window.addEventListener( 'resize', onWindowResize, false );
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window_width / window_height, 0.1, 1000 );
 
-const renderer = new THREE.WebGLRenderer();
+const renderer = new THREE.WebGLRenderer( { alpha: true } );
 renderer.setSize( window_width, window_height );
 document.getElementById('three_js_container').appendChild( renderer.domElement );
 
@@ -45,7 +45,7 @@ cubeGroup.add(cube2);
 
 scene.add( cubeGroup );
 
-camera.position.z = 3.5;
+camera.position.z = 3;
 camera.position.y = 1.5;
 camera.position.x = -2;
 camera.rotation.x = -0.4;
