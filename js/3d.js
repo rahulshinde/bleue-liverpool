@@ -45,9 +45,9 @@ cubeGroup.add(cube2);
 
 scene.add( cubeGroup );
 
-camera.position.z = 3;
-camera.position.y = 1.5;
-camera.position.x = -2;
+camera.position.z = 2.5;
+camera.position.y = 1;
+camera.position.x = 0;
 camera.rotation.x = -0.4;
 
 

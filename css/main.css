@@ -54,11 +54,10 @@ a{
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
-	mix-blend-mode: exclusion;
 }
 
-.chapter_full_video.godess{
-	z-index: -1;
+.chapter_full_video.line{
+	z-index: 1;
 }
 
 .chapter2_video{
@@ -73,4 +72,5 @@ a{
 	right:  0;
 	width: 100%;
 	height: 100vh;
+	z-index: 10;
 }
